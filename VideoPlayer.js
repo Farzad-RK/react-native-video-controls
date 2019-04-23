@@ -1084,16 +1084,7 @@ export default class VideoPlayer extends Component {
     }
 
     renderError() {
-        if ( this.state.error ) {
-            return (
-                <View style={ styles.error.container }>
-                    <Image source={ require( './assets/img/error-icon.png' ) } style={ styles.error.icon } />
-                    <Text style={ styles.error.text }>
-                        Video unavailable
-                    </Text>
-                </View>
-            );
-        }
+   
         return null;
     }
 
